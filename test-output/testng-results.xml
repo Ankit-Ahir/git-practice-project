@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-13T18:01:12 IST" name="Default suite" finished-at="2024-01-13T18:01:30 IST" duration-ms="18544">
+    <groups>
+    </groups>
+    <test started-at="2024-01-13T18:01:12 IST" name="Default test" finished-at="2024-01-13T18:01:30 IST" duration-ms="18544">
+      <class name="test_cases.GoogleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:12 IST" name="setup" finished-at="2024-01-13T18:01:18 IST" duration-ms="5795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:18 IST" name="test1" finished-at="2024-01-13T18:01:20 IST" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:20 IST" name="tearDown" finished-at="2024-01-13T18:01:21 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:21 IST" name="setup" finished-at="2024-01-13T18:01:25 IST" duration-ms="4639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test2()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:25 IST" name="test2" finished-at="2024-01-13T18:01:25 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:25 IST" name="tearDown" finished-at="2024-01-13T18:01:26 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:26 IST" name="setup" finished-at="2024-01-13T18:01:30 IST" duration-ms="4590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test3()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:30 IST" name="test3" finished-at="2024-01-13T18:01:30 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.GoogleTest@36902638]" started-at="2024-01-13T18:01:30 IST" name="tearDown" finished-at="2024-01-13T18:01:30 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
