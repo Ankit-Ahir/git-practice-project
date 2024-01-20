@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="englishToMarathi"/>
+          <include name="englishToHindi"/>
         </methods>
       </class> <!-- test_cases.GoogleTranslate -->
     </classes>

@@ -30,10 +30,11 @@ public class GoogleTranslate {
 
 	@Test
 	public void englishToMarathi() {
-		driver.findElement(By.name("q")).sendKeys("google translate english to marathi");
+		driver.findElement(By.name("q")).sendKeys("english to marathi");
 		List<WebElement> elements = driver.findElements(By.xpath("//ul/li"));
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//ul/li"))));
 		for (WebElement element : elements) {
-			if (element.getText().equalsIgnoreCase("google translate english to marathi")) {
+			if (element.getText().equalsIgnoreCase("english to marathi")) {
 				element.click();
 				break;
 			}
@@ -41,16 +42,17 @@ public class GoogleTranslate {
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.cssSelector("#tw-source-text-ta"))));
 		driver.findElement(By.cssSelector("#tw-source-text-ta")).sendKeys(text);
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id='tw-cpy-btn']/span"))));
-		System.out.println("english to marathi conversion of " + text + " "
+		System.out.println("english to marathi conversion of " + text + ": "
 				+ driver.findElement(By.cssSelector("#tw-target-text")).getText());
 	}
 
 	@Test
 	public void englishToHindi() {
-		driver.findElement(By.name("q")).sendKeys("google translate english to hindi");
+		driver.findElement(By.name("q")).sendKeys("english to hindi");
 		List<WebElement> elements = driver.findElements(By.xpath("//ul/li"));
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//ul/li"))));
 		for (WebElement element : elements) {
-			if (element.getText().equalsIgnoreCase("google translate english to hindi")) {
+			if (element.getText().equalsIgnoreCase("english to hindi")) {
 				element.click();
 				break;
 			}
@@ -58,7 +60,7 @@ public class GoogleTranslate {
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.cssSelector("#tw-source-text-ta"))));
 		driver.findElement(By.cssSelector("#tw-source-text-ta")).sendKeys(text);
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id='tw-cpy-btn']/span"))));
-		System.out.println("english to hindi conversion of " + text + " "
+		System.out.println("english to hindi conversion of " + text + ": "
 				+ driver.findElement(By.cssSelector("#tw-target-text")).getText());
 	}
 
